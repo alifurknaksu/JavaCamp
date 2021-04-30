@@ -9,6 +9,10 @@ public class Main {
 		student.setName("Ali Furkan Aksu");
 		studentManager.update(student);
 		studentManager.delete(student);
+		
+		System.out.println("Name ="+
+				student.getName()+ " " + "Id= "+
+				student.getId());
 
 		final InstructorManager instructorManager = new InstructorManager();
 
@@ -17,6 +21,10 @@ public class Main {
 		instructor.setName("Engin Demiroğ");
 		instructorManager.update(instructor);
 		instructorManager.delete(instructor);
+		
+		System.out.println("Name = "+
+				instructor.getName()+ " " + "Id =" + 
+				instructor.getId());
 	}
 
 }
